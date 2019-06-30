@@ -1,0 +1,19 @@
+<div class="card mt-5 mb-5 shadow">
+    <div class="card-body">
+        <div class="card-title">
+            <h4>Nueva Persona</h4>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombre" [(ngModel)]="persona.nombre" placeholder="digite el nombre">
+            </div>
+            <div class="form-group">
+                <label for="pais">Pais</label>
+                <input type="text" class="form-control" name="pais" id="pais" [(ngModel)]="persona.pais" placeholder="digite la ciudad">
+            </div>
+
+            <button type="submit" class="btn btn-primary shadow" (click)="nuevaPersona()">Guardar</button>
+        </form>
+    </div>
+</div>

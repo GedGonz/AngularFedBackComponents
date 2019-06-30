@@ -1,0 +1,11 @@
+<div class="container">
+    <!--<router-outlet></router-outlet>-->
+    <div class="row">
+        <div class="col-md-8">
+            <app-nuevoem [persona]="personaseleccionada"></app-nuevoem>
+        </div>
+        <div class="col-md-4">
+            <app-listem (eventseleccion)="personaseleccionada = $event"></app-listem>
+        </div>
+    </div>
+</div>

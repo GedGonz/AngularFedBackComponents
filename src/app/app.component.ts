@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+import { persona  } from './model/persona';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AppAng';
+  personseleccion: persona;
+
+
+
+
 }
+
+
